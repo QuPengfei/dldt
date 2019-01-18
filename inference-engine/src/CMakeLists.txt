@@ -30,3 +30,5 @@ endfunction()
 
 add_subdirectory(extension EXCLUDE_FROM_ALL)
 add_library(IE::ie_cpu_extension ALIAS ie_cpu_extension)
+
+add_subdirectory(inference_engine_c_api)
