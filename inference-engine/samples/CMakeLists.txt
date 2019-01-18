@@ -128,3 +128,10 @@ else()
     message(STATUS "Validation app build is switched off")
 endif()
 ####################################################
+
+####################################################
+# The following is the C API wrapper sample,define
+# the C API and strcture and sample
+####################################################
+add_subdirectory(object_detection_sample_ssd_c)
+####################################################
